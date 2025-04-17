@@ -6,9 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		266DFD8C2DB0DC4500CDC08D /* NewLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 266DFD8B2DB0DC4500CDC08D /* NewLibrary */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		266DFD5A2DB0D6A300CDC08D /* NewWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		266DFD6B2DB0D82700CDC08D /* NewLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NewLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -24,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266DFD8C2DB0DC4500CDC08D /* NewLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,7 +37,6 @@
 		266DFD512DB0D6A300CDC08D = {
 			isa = PBXGroup;
 			children = (
-				266DFD6B2DB0D82700CDC08D /* NewLibrary */,
 				266DFD5C2DB0D6A300CDC08D /* NewWrapper */,
 				266DFD5B2DB0D6A300CDC08D /* Products */,
 			);
@@ -67,6 +70,7 @@
 			);
 			name = NewWrapper;
 			packageProductDependencies = (
+				266DFD8B2DB0DC4500CDC08D /* NewLibrary */,
 			);
 			productName = NewWrapper;
 			productReference = 266DFD5A2DB0D6A300CDC08D /* NewWrapper.app */;
@@ -96,6 +100,9 @@
 			);
 			mainGroup = 266DFD512DB0D6A300CDC08D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				266DFD8A2DB0DC4500CDC08D /* XCLocalSwiftPackageReference "../NewLibrary" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 266DFD5B2DB0D6A300CDC08D /* Products */;
 			projectDirPath = "";
@@ -343,6 +350,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		266DFD8A2DB0DC4500CDC08D /* XCLocalSwiftPackageReference "../NewLibrary" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../NewLibrary;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		266DFD8B2DB0DC4500CDC08D /* NewLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 266DFD522DB0D6A300CDC08D /* Project object */;
 }

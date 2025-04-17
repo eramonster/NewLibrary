@@ -4,3 +4,8 @@
 public func Hello() {
     print( "Hello, World!" )
 }
+
+
+public func Hello2() {
+    print( "Hello, World!" )
+}
